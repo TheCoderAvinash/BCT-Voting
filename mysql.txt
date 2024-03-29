@@ -1,0 +1,5 @@
+craete database aadhar;
+use aadhar;
+create table aadhar_info(Account_address varchar(255),Aadharno int,Is_registered char(5));
+create table registered_users(Account_address varchar(255), Is_registered char(5));
+create table registration(aadhar int, registration_type varchar(50), email_address varchar(255), first_name varchar(255), last_name varchar(255), gender char(5), password varchar(255), confirm_password varchar(255);
